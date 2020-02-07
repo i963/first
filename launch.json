@@ -1,0 +1,36 @@
+{
+    // Используйте IntelliSense, чтобы узнать о возможных атрибутах.
+    // Наведите указатель мыши, чтобы просмотреть описания существующих атрибутов.
+    // Для получения дополнительной информации посетите: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        
+        {
+            "type": "java",
+            "request": "attach",
+            "name": "Java",
+            "port": 5005,
+            "sourceRoots": []
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch) - Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-HelloWorld<CODE_563343b2>",
+            "request": "launch",
+            "mainClass": "HelloWorld",
+            "projectName": "CODE_563343b2"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Variables<CODE_563343b2>",
+            "request": "launch",
+            "mainClass": "Variables",
+            "projectName": "CODE_563343b2"
+        }
+    ]
+}
